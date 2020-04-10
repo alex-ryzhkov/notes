@@ -28,6 +28,8 @@ sudo chmod a+x /etc/grub.d/31_hold_shift
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 Note: This setup uses keystatus to detect keypress event so it may not work on some machines.
+[Source](https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Hide_GRUB_unless_the_Shift_key_is_held_down)
+
 
 ## installing linux on the second drive uefi
 https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives

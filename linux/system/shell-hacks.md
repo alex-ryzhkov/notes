@@ -21,3 +21,6 @@ wget --random-wait -r -p -e robots=off -U mozilla http://www.example.com
 
 ## download all jpg files named cat01.jpg to cat20.jpg
 `curl -O http://example.org/xyz/cat[01-20].jpg`
+
+## useful links
+https://explainshell.com/

@@ -123,3 +123,11 @@ tooltip
 ##  useful links
 
 [CSS tricks for Firefox](https://github.com/Aris-t2/CustomCSSforFx)
+
+## non-detachable tabs
+
+```
+browser.tabs.allowTabDetach
+```
+
+

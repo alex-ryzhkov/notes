@@ -21,3 +21,5 @@ put `setxkbmap -option caps:swapescape` in `$HOME/.profile`
 ## vim and cyrillic alphabet
 [Vim и кириллица: парочка приёмов / Habr](https://habr.com/post/98393/)
 
+## useful links
+[Seamlessly Navigate Vim and tmux Splits](http://archive.is/exAZY)
