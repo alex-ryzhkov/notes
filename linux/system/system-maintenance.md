@@ -30,6 +30,21 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 Note: This setup uses keystatus to detect keypress event so it may not work on some machines.
 [Source](https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Hide_GRUB_unless_the_Shift_key_is_held_down)
 
+## Make GRUB remember the kernel you chose to boot
+
+```
+vim /etc/default/grub
+```
+
+```
+GRUB_SAVEDEFAULT=true
+GRUB_DEFAULT=saved
+```
+
+```
+update-grub
+```
+[Source](https://unix.stackexchange.com/a/421650)
 
 ## installing linux on the second drive uefi
 https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives
@@ -45,5 +60,3 @@ https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-
 
 ## disable display standby
 `xset s off`
-
-
